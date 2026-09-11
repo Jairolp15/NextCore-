@@ -1,0 +1,346 @@
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "on-primary-container": "#768497",
+                "secondary-fixed-dim": "#ffb783",
+                "data-blue": "#3498DB",
+                "tertiary": "#e0c1a0",
+                "inverse-surface": "#e4e2e3",
+                "on-primary-fixed": "#0f1c2c",
+                "midnight-navy": "#0D1B2A",
+                "primary-fixed": "#d6e4f9",
+                "surface-container-high": "#2a2a2b",
+                "primary-container": "#0d1b2a",
+                "error": "#ffb4ab",
+                "secondary-fixed": "#ffdcc5",
+                "inverse-on-surface": "#303032",
+                "on-primary": "#243141",
+                "surface-container-highest": "#343536",
+                "surface-tint": "#bac8dc",
+                "surface-container-lowest": "#0e0e0f",
+                "outline": "#8e9196",
+                "on-secondary-container": "#451f00",
+                "surface-container-low": "#1b1b1d",
+                "tertiary-container": "#271703",
+                "primary-fixed-dim": "#bac8dc",
+                "on-secondary": "#4f2500",
+                "error-container": "#93000a",
+                "on-secondary-fixed": "#301400",
+                "primary": "#bac8dc",
+                "surface-variant": "#343536",
+                "electric-gold": "#F39C12",
+                "on-tertiary-fixed": "#281804",
+                "secondary": "#ffb783",
+                "outline-variant": "#44474c",
+                "on-surface": "#e4e2e3",
+                "on-tertiary": "#402d15",
+                "on-background": "#e4e2e3",
+                "surface": "#131315",
+                "surface-bright": "#39393a",
+                "on-primary-fixed-variant": "#3a4859",
+                "tertiary-fixed-dim": "#e0c1a0",
+                "surface-charcoal": "#1B263B",
+                "on-surface-variant": "#c4c6cc",
+                "inverse-primary": "#525f71",
+                "surface-dim": "#131315",
+                "on-error": "#690005",
+                "surface-container": "#1f2021",
+                "on-tertiary-container": "#997e60",
+                "tertiary-fixed": "#feddba",
+                "on-error-container": "#ffdad6",
+                "amber-glow": "#E67E22",
+                "on-tertiary-fixed-variant": "#584329",
+                "background": "#131315",
+                "secondary-container": "#db7619",
+                "on-secondary-fixed-variant": "#713700"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+        },
+        "spacing": {
+                "gutter": "24px",
+                "unit": "4px",
+                "md": "16px",
+                "sm": "8px",
+                "margin-mobile": "16px",
+                "xxl": "80px",
+                "xl": "48px",
+                "lg": "24px",
+                "xs": "4px",
+                "margin-desktop": "64px"
+        },
+        "fontFamily": {
+                "display-lg": [
+                        "Inter"
+                ],
+                "body-md": [
+                        "Inter"
+                ],
+                "body-lg": [
+                        "Inter"
+                ],
+                "headline-lg": [
+                        "Inter"
+                ],
+                "label-md": [
+                        "Inter"
+                ],
+                "headline-md": [
+                        "Inter"
+                ],
+                "headline-lg-mobile": [
+                        "Inter"
+                ]
+        },
+        "fontSize": {
+                "display-lg": [
+                        "48px",
+                        {
+                                "lineHeight": "56px",
+                                "letterSpacing": "-0.03em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "body-md": [
+                        "16px",
+                        {
+                                "lineHeight": "24px",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "body-lg": [
+                        "18px",
+                        {
+                                "lineHeight": "28px",
+                                "letterSpacing": "0",
+                                "fontWeight": "400"
+                        }
+                ],
+                "headline-lg": [
+                        "32px",
+                        {
+                                "lineHeight": "40px",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "label-md": [
+                        "12px",
+                        {
+                                "lineHeight": "16px",
+                                "letterSpacing": "0.1em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "headline-md": [
+                        "24px",
+                        {
+                                "lineHeight": "32px",
+                                "letterSpacing": "-0.01em",
+                                "fontWeight": "600"
+                        }
+                ],
+                "headline-lg-mobile": [
+                        "28px",
+                        {
+                                "lineHeight": "34px",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "700"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/></head><body class="bg-background font-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-lg flex items-center justify-between"><div class="flex items-center gap-md"><img alt="Next Core Logo" class="h-8 w-auto object-contain rounded-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkeV1hcsxZCHRYsiHgNApUPbfGlMrz3ub8cXiS9Pz14ZVPdIs2iCv3IxzXMxqu3AsN9IcweBMQ1bZ4Wpp91Ha095VXKMFamO_-pLs3jvrCRsJSV1zc2YQV4ppt-ltSBza-G1GanIrPeNcwqZzbd02NHibPEB4tHGtYjf4foNe20sKPPqWolwuAfUEd1Z4258XviWSBOdKmTZ-yAFc1KFDkf8gQrRu-oWRzf8EE9AS951RJPYtFYRurhGtDVPs865LJWQ"/><span class="font-headline-md text-primary tracking-tight hidden sm:block">NEXT CORE</span></div><nav class="hidden lg:flex items-center gap-xl" data-active-classes="text-secondary border-b-2 border-secondary"><a aria-current="page" class="font-label-md transition-colors py-2 text-secondary border-b-2 border-secondary" data-path="inicio" href="#">Home</a><a class="font-label-md text-on-surface-variant hover:text-primary transition-colors py-2" data-path="servicios" href="#">Services</a><a class="font-label-md text-on-surface-variant hover:text-primary transition-colors py-2" data-path="nosotros" href="#">About</a><a class="font-label-md text-on-surface-variant hover:text-primary transition-colors py-2" data-path="contacto" href="#">Contact</a></nav><div class="flex items-center gap-md"><button class="hidden md:block bg-secondary-container text-on-secondary-container px-lg py-sm rounded-xl font-label-md hover:bg-secondary-fixed transition-all">Get a Quote</button><img alt="Profile" class="w-10 h-10 rounded-full border-2 border-surface-variant object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwdO08A1mfjPwyzeaEscJYOHuSeG-YnRk9V8xuR-5qVxbFyr79n4DNi3oFKRke3h0bUFaIytitH0wQFeS0Sw3pdLOO79xwPCj6V9mtsTa2FD82bQseWI7rfTLX9FEEWZWMT2_X7rihaKIx_5-BvvMVo49-tJr0I9xgNPPxgeA8QoOO7Z_tNNLYiv4QZUeb-b7VURXgL1edxDYcbBmsdLRrnW5BP4dpL2N3wbr_IxraEtZVqcZzaYoM"/><button class="lg:hidden text-primary p-xs"><span class="material-symbols-outlined text-3xl">menu</span></button></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden bg-primary text-on-primary -mt-20 pt-20 lg:pt-32 pb-24 lg:pb-40">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center opacity-40 mix-blend-screen" data-alt="Close up of glowing fiber optic cables in deep blue and yellow hues. Macro photography, high tech, corporate modern style. Sharp focus on the glowing strands, dark background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBQx8vvKT6mTNWSFMfUtPxbrfXwqRrioVyCVpOY_xMDZGRHqWpDubWPlS8qBPXdOqbqFIjLlqNjItAr-nP8BgzDcJjmujrZ99SxWUJ30UUzNCVfqdj1_jNGdskz3T_x5NuHsYxDNPymCmaKUHG1iNqftyp4fs6xik8tWsbh3vXJ_mINquCe-5dQQpr9CVTDDFWPQjwJpj0ws9ff61PuLePjcUQRe9sDvGlxSn3mFEMfsSw8PDT-LNk9')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-[1280px] mx-auto px-lg flex flex-col lg:flex-row items-center gap-xxl pt-12">
+<div class="w-full lg:w-3/5 flex flex-col gap-lg">
+<div class="flex items-center gap-sm">
+<div class="h-[2px] w-8 bg-secondary"></div>
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Redes de PrÃ³xima GeneraciÃ³n</span>
+</div>
+<h1 class="font-display-lg text-display-lg bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-md tracking-wider uppercase">Ultra-Speed Connectivity for Your Business.</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim max-w-2xl opacity-80 font-light leading-relaxed">
+          Proveemos infraestructura de fibra Ã³ptica de grado empresarial. Confiabilidad inquebrantable y velocidades simÃ©tricas diseÃ±adas para impulsar las operaciones crÃ­ticas de su empresa.
+        </p>
+<div class="flex flex-col sm:flex-row gap-md pt-4">
+<button class="border border-secondary text-secondary px-xxl py-md rounded-full font-label-md uppercase tracking-widest hover:bg-secondary hover:text-on-secondary transition-all duration-500 flex items-center justify-center gap-2 group">
+            Solicitar CotizaciÃ³n <span class="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<button class="border border-primary-fixed text-primary-fixed px-xxl py-md rounded-full font-label-md uppercase tracking-widest hover:bg-primary-fixed hover:text-on-primary-fixed transition-all duration-500 flex items-center justify-center gap-2">
+             View Services
+          </button>
+</div>
+</div>
+<div class="w-full lg:w-2/5 relative">
+<div class="absolute -inset-4 bg-secondary/20 blur-2xl rounded-full"></div>
+<div class="relative bg-surface-container-high/40 backdrop-blur-xl border border-surface-variant/30 rounded-2xl overflow-hidden shadow-2xl p-1">
+<div class="w-full aspect-[4/5] bg-cover bg-center rounded-xl" data-alt="A modern server room with rows of racks illuminated by blue LED lights, showing a technician in a hard hat inspecting connections. High quality, corporate tech environment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC1Qybm1ik_YLFJlzy3VZ_Wy4zmFyzdOYtHPGkst5fWeJcYnTaKdf560XTaBTC1hsE0GEXVhpKXMKbO1FaoPzP8YjijLNBv76BIE0N9jh7x1ngyogiwsmMHRzzim-wLmePU_w7Jf6XRV_-AGjYLemGWlXfquf2THkcXOwKG79Ayi8O0V6ofe62IZKQ-JI5CU40HxA46u6ZpeSwYrnXfoMbrUWXwiMG3TvAfWTlSE-295OVswHNCz_xe')"></div>
+<!-- Floating stat -->
+<div class="absolute bottom-6 left-6 -right-6 bg-surface-container-lowest/90 backdrop-blur-md p-md rounded-xl shadow-lg flex items-center gap-md border border-surface-variant/30">
+<div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined">speed</span>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-primary">Up to 10 Gbps</div>
+<div class="font-body-md text-body-md text-on-surface-variant">Velocidad SimÃ©trica Garantizada</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Value Proposition / Stats -->
+<section class="w-full py-xxl bg-surface-container-lowest relative z-20">
+<div class="max-w-[1280px] mx-auto px-lg -mt-32">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-lg">
+<div class="bg-surface-container-high/40 backdrop-blur-xl border border-surface-variant/30 rounded-2xl p-xl shadow-2xl flex flex-col gap-md group hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-fixed/30 rounded-bl-full -z-10 group-hover:scale-110 transition-transform"></div>
+<div class="w-14 h-14 bg-primary text-on-primary rounded-xl flex items-center justify-center mb-2">
+<span class="material-symbols-outlined text-3xl">router</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary tracking-wide">High-Speed Internet</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
+                    Dedicated connections and fiber optic broadband that eliminate bottlenecks and maximize operational productivity.
+                </p>
+<div class="mt-auto pt-4 flex items-center text-secondary font-label-md text-label-md uppercase tracking-widest cursor-pointer group-hover:text-secondary-fixed-dim">
+                    Learn More <span class="material-symbols-outlined text-[20px] ml-2 group-hover:translate-x-1 transition-transform">chevron_right</span>
+</div>
+</div>
+<div class="bg-surface-container-high/40 backdrop-blur-xl border border-surface-variant/30 rounded-2xl p-xl shadow-2xl flex flex-col gap-md group hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary-fixed/30 rounded-bl-full -z-10 group-hover:scale-110 transition-transform"></div>
+<div class="w-14 h-14 bg-primary text-on-primary rounded-xl flex items-center justify-center mb-2">
+<span class="material-symbols-outlined text-3xl">lan</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary tracking-wide">Network Infrastructure</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
+                    Design, installation, and maintenance of structured cabling and dark fiber networks for corporate campuses and data centers.
+                </p>
+<div class="mt-auto pt-4 flex items-center text-secondary font-label-md text-label-md uppercase tracking-widest cursor-pointer group-hover:text-secondary-fixed-dim">
+                    Learn More <span class="material-symbols-outlined text-[20px] ml-2 group-hover:translate-x-1 transition-transform">chevron_right</span>
+</div>
+</div>
+<div class="bg-surface-container-high/40 backdrop-blur-xl border border-surface-variant/30 rounded-2xl p-xl shadow-2xl flex flex-col gap-md group hover:-translate-y-2 transition-transform duration-300 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-tertiary-fixed/30 rounded-bl-full -z-10 group-hover:scale-110 transition-transform"></div>
+<div class="w-14 h-14 bg-primary text-on-primary rounded-xl flex items-center justify-center mb-2">
+<span class="material-symbols-outlined text-3xl">support_agent</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary tracking-wide">Technical Support 24/7</h3>
+<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
+                    Proactive network monitoring and specialized technical support available at all times to ensure your business continuity.
+                </p>
+<div class="mt-auto pt-4 flex items-center text-secondary font-label-md text-label-md uppercase tracking-widest cursor-pointer group-hover:text-secondary-fixed-dim">
+                    Learn More <span class="material-symbols-outlined text-[20px] ml-2 group-hover:translate-x-1 transition-transform">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Network Overview / Split Section -->
+<section class="w-full py-xxl bg-surface">
+<div class="max-w-[1280px] mx-auto px-lg">
+<div class="flex flex-col lg:flex-row items-center gap-xxl">
+<div class="w-full lg:w-1/2 relative">
+<div class="absolute top-4 -left-4 w-24 h-24 bg-secondary/10 rounded-full blur-xl"></div>
+<div class="relative bg-surface-container-high/40 backdrop-blur-xl border border-surface-variant/30 rounded-3xl overflow-hidden aspect-square shadow-2xl p-2">
+<div class="w-full h-full bg-cover bg-center rounded-2xl" data-alt="A clean, minimalist map rendering of a city grid with bright yellow and blue lines indicating fiber optic network coverage. Corporate style." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDGzau0CygszAJYrFtTWK5yl5U2fbqbe0ssC9-Jjb_VpAD8esl6mA_HSD3bdMVP9d0a_UyjVG07dDRlF0P6nfsfd5c1v5Le4ShdVlPw4fak6jNU3hRdJ4XuYvTJsXTouW3x8yBBE0qjNJPRj5UZPyWhAwdM4kqAvsKK6CbjyGTE85tFNovwS5yFztwuTCUvTwVKR5UupOf00_IPMWdp5QuMQYim0V6uLcWrIJbOnc47WedkiU0xRxYv')"></div>
+<!-- Decorative overlay -->
+<div class="absolute inset-0 bg-primary/5 mix-blend-multiply pointer-events-none"></div>
+<!-- Pulsing point -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+<div class="relative flex items-center justify-center">
+<div class="absolute w-8 h-8 bg-secondary rounded-full animate-ping opacity-75"></div>
+<div class="relative w-4 h-4 bg-secondary rounded-full shadow-[0_0_15px_rgba(252,212,0,0.8)]"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full lg:w-1/2 flex flex-col gap-lg">
+<div class="flex flex-col gap-xs">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Our Network</span>
+<h2 class="font-headline-lg text-headline-lg bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent tracking-wider uppercase">Unmatched Coverage, Minimal Latency.</h2>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant font-light leading-relaxed">
+                    Our fiber optic infrastructure is engineered with geometric redundancy and diverse routes to ensure 99.99% uptime. We reach where others cannot, with the quality your business demands.
+                </p>
+<div class="flex flex-col gap-md mt-4">
+<div class="flex items-start gap-4">
+<div class="mt-1 w-6 h-6 rounded-full bg-primary-container text-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary text-[18px] tracking-wide">Ultra-Low Latency</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-[14px] font-light leading-relaxed">Optimized routes for real-time applications and financial transactions.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="mt-1 w-6 h-6 rounded-full bg-primary-container text-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary text-[18px] tracking-wide">Scalable Bandwidth</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-[14px] font-light leading-relaxed">Ability to scale your speed without requiring new physical installation.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="mt-1 w-6 h-6 rounded-full bg-primary-container text-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">check</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary text-[18px] tracking-wide">Military-Grade Security</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-[14px] font-light leading-relaxed">Fiber optic is inherently more secure against data interception.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="w-full py-xxl bg-surface-container-lowest">
+<div class="max-w-[1280px] mx-auto px-lg">
+<div class="bg-primary rounded-[32px] overflow-hidden relative shadow-2xl">
+<!-- Background Texture -->
+<div class="absolute inset-0 opacity-10">
+<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="40" id="grid" patternunits="userSpaceOnUse" width="40">
+<path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"></path>
+</pattern>
+</defs>
+<rect class="text-primary-fixed" fill="url(#grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<div class="relative z-10 px-lg py-16 md:py-24 flex flex-col items-center text-center gap-lg max-w-3xl mx-auto">
+<h2 class="font-display-lg text-display-lg text-on-primary tracking-wider uppercase">Ready to transform your connectivity?</h2>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim font-light leading-relaxed">
+                    Contact our infrastructure specialists today and get a free assessment of your company's network needs.
+                </p>
+<div class="mt-8 flex flex-col sm:flex-row gap-md">
+<button class="bg-secondary text-on-secondary-container px-xxl py-md rounded-full font-label-md uppercase tracking-widest hover:bg-secondary-fixed transition-colors shadow-lg shadow-secondary/20 flex items-center justify-center gap-2 group">
+                        Request a Quote <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">receipt_long</span>
+</button>
+<button class="bg-transparent border border-primary-fixed text-primary-fixed px-xxl py-md rounded-full font-label-md uppercase tracking-widest hover:bg-primary-fixed/10 transition-colors flex items-center justify-center gap-2">
+                        Talk to Sales <span class="material-symbols-outlined">call</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-primary text-on-primary py-xxl"><div class="max-w-[1280px] mx-auto px-lg grid grid-cols-1 md:grid-cols-4 gap-xl"><div><div class="flex items-center gap-sm mb-md"><img alt="Next Core Logo" class="h-8 w-auto object-contain rounded-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvuEdK_Y_aNNEKAZW596TMAieg7x7_Rxq0R7DcZgS1YNh0SEM1WZh9FS3BzVem864Bd6fLhUpSlOe5EcxKE9_gZuqsKhu0MV1d_OBZ4vFfIFgz0nX_sJQfh9vhqCt_db_y55NzP9UEBOIWBux49g1lEczMnCMEB5I5zElfJqoZCbigzHB0hQ9hHWIyFULbSH_kUEkrdtIOFxEgmDpG0_uWUGZ-R1ggpeSQHQopKm0WViLKe2UGT0sx1lr9vlwA0-PPTg"/><span class="font-headline-md">Next Core</span></div><p class="text-on-primary-container text-body-md opacity-80 font-light">Proveyendo la infraestructura invisible de conectividad moderna con precisiÃ³n aeroespacial.</p></div><div><h4 class="font-headline-md mb-md tracking-wide">Quick Links</h4><ul class="space-y-sm text-body-md font-light"><li class="hover:text-secondary-fixed cursor-pointer">Services</li><li class="hover:text-secondary-fixed cursor-pointer">Coverage</li><li class="hover:text-secondary-fixed cursor-pointer">Soporte TÃ©cnico</li></ul></div><div><h4 class="font-headline-md mb-md tracking-wide">Contact</h4><p class="text-body-md opacity-80 mb-sm font-light">101 Next Core Way, Tech Corridor, TX</p><p class="text-body-md opacity-80 font-light">+1 (800) NEXT-CORE</p></div><div><h4 class="font-headline-md mb-md tracking-wide">SÃ­guenos</h4><div class="flex gap-md"><span class="material-symbols-outlined text-3xl cursor-pointer hover:text-secondary-fixed">public</span><span class="material-symbols-outlined text-3xl cursor-pointer hover:text-secondary-fixed">hub</span><span class="material-symbols-outlined text-3xl cursor-pointer hover:text-secondary-fixed">share</span></div></div></div><div class="max-w-[1280px] mx-auto px-lg mt-xl pt-lg border-t border-on-primary-fixed-variant text-center opacity-60 text-label-md font-light">Â© 2024 Next Core. All rights reserved.</div></footer></body></html>
